@@ -1,4 +1,3 @@
-# model-regression-detector
 # Model Regression Detector
 
 Catch bad model releases before they reach production. This tool compares a **candidate** model against a **baseline** model on the same labeled test data, checks the input features for **data drift**, saves a JSON report, and can alert your team on **Slack**.
